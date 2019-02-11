@@ -1,9 +1,11 @@
 import discord
 from discord.ext import commands
 
-TOKEN = "NTE0MTQzNTgwMzAyODY4NTQ1.DuSY9Q.ig3tVqfPEUfVkWLuwY6s50UyH5M"
+TOKEN = "NTQ0NjI5ODMyMTU2NDQ2NzMw.D0N6JQ.QnBvXO-ibnSnyZkW7fVtSlfxaPk"
 
 client = commands.Bot(command_prefix = "_")
+
+@client.event
 
 @client.event
 async def on_ready():
