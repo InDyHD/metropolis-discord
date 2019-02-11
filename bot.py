@@ -7,7 +7,7 @@ client = commands.Bot(command_prefix = "_")
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name="Tug4| Elite Community"))
+    await client.change_presence(game=discord.Game(name="For The Win Servers"))
     print('Logado em:')
     print(client.user.name)
     print(client.user.id)
